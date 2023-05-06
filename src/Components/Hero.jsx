@@ -28,26 +28,25 @@ function Hero() {
         <div>
           <section className="flex bg-[#fff] flex-col md:flex-row w-full h-[80vh]">
             <div className="basis-1/2  flex flex-col md:justify-center">
-              <p className="md:text-xl  text-[16px] text-darkBlue mb-1 font-medium ">
+              <p className="md:text-xl  text-[20px] text-darkBlue mb-1 font-medium ">
                 Hi! My name is
               </p>
-              <h1 className="md:text-[40px] text-xl mb-4 text-purple font-bold ">
-                {" "}
+              <h1 className="md:text-[40px] text-[30px] text-xl mb-4 text-purple font-bold ">
                 Agu Jonas O.
               </h1>
               <div className="flex gap-4">
-                <button className=" bg-purple  hover:bg-white hover:text-purple hover:border-2 hover:border-purple text-white md:px-5 md:text-[18px] text-[14px] px-2 py-1 rounded-full">
+                <button className=" bg-purple  hover:bg-white hover:text-purple hover:border-2 hover:border-purple text-white md:px-5 md:text-[20px] text-[18px] px-2 py-1 rounded-full">
                   Contact
                 </button>
-                <button className="hover:bg-purple hover:border-0 hover:text-white border-2 border-purple text-purple md:px-5 text-[14px] md:text-[18px] px-2 py-1 rounded-full">
+                <button className="hover:bg-purple hover:border-0 hover:text-white border-2 border-purple text-purple md:px-5 text-[18px] md:text-[20px] px-2 py-1 rounded-full">
                   Projects
                 </button>
               </div>
               
-              <p className="md:text-xl text-darkBlue text-[14px] mt-[20px] md:mt-[70px]">
+              <p className="md:text-xl text-darkBlue text-[16px] mt-[20px] md:mt-[70px]">
                 Creative FrontEnd Developer
               </p>
-              <p className="md:text-xl mt-[10px] text-[14px] text-darkBlue">
+              <p className="md:text-xl mt-[10px] text-[16px] text-darkBlue">
                 Crafting <span className=' font-medium text-purple' ref={el}/> web experiences.
               </p>
             </div>
