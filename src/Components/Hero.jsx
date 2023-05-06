@@ -31,7 +31,7 @@ function Hero() {
               <p className="md:text-xl  text-[20px] text-darkBlue mb-1 font-medium ">
                 Hi! My name is
               </p>
-              <h1 className="md:text-[40px] text-[30px] text-xl mb-4 text-purple font-bold ">
+              <h1 className="md:text-[40px] text-[30px] text-2xl mb-4 text-purple font-bold ">
                 Agu Jonas O.
               </h1>
               <div className="flex gap-4">
