@@ -63,14 +63,14 @@ function Hero() {
                   }}
                 >
                   <img
-                    className="w-[150px] md:w-[300px] shrink-0 grow-0 mx-auto rounded-full"
+                    className="w-[220px] md:w-[300px] shrink-0 grow-0 mx-auto rounded-full"
                     src={profileone}
                     alt="Profile Image"
                   />
                 </motion.div>
               </div>
               <motion.img   initial={{ scale: 0 }}
-                  animate={{  scale: 1 }} className="w-[200px] md:w-[350px] object-cover mx-auto" src={splash} />
+                  animate={{  scale: 1 }} className="w-[250px] md:w-[350px] object-cover mx-auto" src={splash} />
             </div>
           </section>
           <div className="w-full flex justify-between items-center h-[10vh]">
