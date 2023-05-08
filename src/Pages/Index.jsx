@@ -1,15 +1,17 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import Hero from "../Components/Hero";
-import About from "../Components/About";
+
 
 
 function Index() {
   return (
-    <section>
+   <main className="">
+     <section>
         <Hero/>
-        <About/>
     </section>
+   
+   </main>
   );
 }
 
