@@ -1,7 +1,12 @@
 import Nav from "./Navbar/Nav";
 import grid from "../assets/Images/grid-dot.svg"
 import zigzag from "../assets/Images/newIllustravtion.svg"
+
 function ContactMe() {
+
+  function handleClick() {
+    window.location.href = 'mailto:your-email@gmail.com';
+  }
   return (
     <div>
       <Nav>
@@ -17,9 +22,10 @@ function ContactMe() {
             hear from you. Please don't hesitate to reach out and get in touch
             with me.
           </p>
+          
           <div className="text-center mb-12">
-            <button className="px-5 py-2 border-2 text-purple hover:bg-purple hover:text-white border-purple ">
-                Send An Email
+            <button onClick={handleClick} className="px-5 py-2 border-2 text-purple hover:bg-purple hover:text-white border-purple ">
+               Send An Email
             </button>
           </div>
         </section>

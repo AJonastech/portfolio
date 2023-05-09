@@ -45,10 +45,10 @@ function Hero() {
                 Agu Jonas O.
               </motion.h1>
               <motion.div initial={{opacity:0.8, y:30}} animate={{opacity:1, y:0}} transition={{delay:0.9}} className="flex gap-4">
-                <button className=" bg-purple  hover:bg-white hover:text-purple hover:border-2 hover:border-purple text-white md:px-5 md:text-[20px] text-[18px] px-2 py-1 rounded-full">
+                <button className=" bg-purple  hover:bg-white hover:text-purple hover:border-2 hover:border-purple text-white md:px-9 md:text-[20px] text-[18px] px-4 py-[6px] rounded-full">
                   Contact
                 </button>
-                <button className="hover:bg-purple hover:border-0 hover:text-white border-2 border-purple text-purple md:px-5 text-[18px] md:text-[20px] px-2 py-1 rounded-full">
+                <button className="hover:bg-purple hover:border-0 hover:text-white border-2 border-purple text-purple md:px-9 text-[18px] md:text-[20px] px-4 py-[6px] rounded-full">
                   Projects
                 </button>
               </motion.div>

@@ -3,7 +3,10 @@
 @tailwind utilities;
 .grid-container{
     grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(min(250px, 100%), 350px));
+   
     display: grid;
      gap:20px;
+  }
+  .opacity-custom{
+    background-color: rgba(0,0,0,0.03);
   }

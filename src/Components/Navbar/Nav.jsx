@@ -19,7 +19,7 @@ function Nav({ children }) {
         initial={{opacity:0.2}}
         animate={{opacity:1}}
         transition={{duration:0.6, delay:0.2}}
-        className="font-medium text-2xl md:text-3xl ">Agu Jonas O.</motion.h1>
+        className="font-medium text-2xl md:text-3xl ">ReactZen</motion.h1>
         <AiOutlineMenu
           onClick={() => {
             setNav(true);
