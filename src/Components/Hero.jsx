@@ -12,6 +12,7 @@ import {
 import Typed from 'typed.js';
 import { Link } from 'react-router-dom';
 import grid from "../assets/Images/grid-dot.svg"
+import zigzag from "../assets/Images/newIllustravtion.svg"
 function Hero() {
 
 
@@ -33,7 +34,8 @@ function Hero() {
         <div>
           <section className="flex relative bg-[#fff] flex-col md:flex-row w-full h-[80vh]">
           
-              <img className='absolute sm:hidden top-[52px] w-[60%] right-2 md:top-3 md:right-[45%] md:w-[30%]' src={grid} alt=""/>
+              <img className='absolute  top-[52px] w-[60%] right-2 md:top-3 md:right-[50%] md:w-[30%]' src={grid} alt=""/>
+              <img className=" absolute  right-[-30px] bottom-8 hidden md:block md:w-20% rotate-90 " src={zigzag} alt=""/>
             
             <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{delay:0.6}} className="basis-1/2  flex flex-col md:justify-center">
               <motion.p initial={{opacity:0.8, y:30}} animate={{opacity:1, y:0}} transition={{delay:0.7}}  className="md:text-3xl  text-2xl md:pt-0 pt-5 text-darkBlue mb-1 font-medium ">

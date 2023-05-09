@@ -1,10 +1,13 @@
 import Nav from "./Navbar/Nav";
-
+import grid from "../assets/Images/grid-dot.svg"
+import zigzag from "../assets/Images/newIllustravtion.svg"
 function ContactMe() {
   return (
     <div>
       <Nav>
-        <section className="h-[70vh]">
+        <section className="h-[70vh] relative">
+        <img className='absolute  top-[90px] w-[25%] left-2   ' src={grid} alt=""/>
+              <img className=" absolute  right-[-30px] bottom-[60px] hidden md:block md:w-20% rotate-90 " src={zigzag} alt=""/>
           <h1 className='text-[28px] md:text-[36px] text-purple  mb-12  '>CONTACT ME/</h1>
           <h2 className="text-center text-darkBlue text-[28px] font-bold">Get In Touch</h2>
           <p className="text-gray w-full max-w-[450px] mx-auto text-lg text-center mb-5">
