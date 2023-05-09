@@ -33,7 +33,7 @@ function Hero() {
         <div>
           <section className="flex relative bg-[#fff] flex-col md:flex-row w-full h-[80vh]">
           
-              <img className='absolute top-[52px] w-[70%] right-2 md:top-3 md:right-[45%] md:w-[30%]' src={grid} alt=""/>
+              <img className='absolute sm:hidden top-[52px] w-[60%] right-2 md:top-3 md:right-[45%] md:w-[30%]' src={grid} alt=""/>
             
             <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{delay:0.6}} className="basis-1/2  flex flex-col md:justify-center">
               <motion.p initial={{opacity:0.8, y:30}} animate={{opacity:1, y:0}} transition={{delay:0.7}}  className="md:text-3xl  text-2xl md:pt-0 pt-5 text-darkBlue mb-1 font-medium ">
