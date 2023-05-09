@@ -122,7 +122,7 @@ function Nav({ children }) {
 
    
 <footer className="bg-purple gap-5 flex justify-center flex-col items-center h-[20vh] text-white">
-      <h2 className="text-xl">Lets Create Magic Together, contact Me</h2>
+      <h2 className="md:text-xl text-lg text-center">Lets Create Magic Together, contact Me</h2>
       <div className="flex gap-2 md:text-3xl text-xl ">
         <AiFillGithub />
         <AiFillLinkedin />

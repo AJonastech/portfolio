@@ -24,7 +24,7 @@ function PerProfile() {
     <section className='grid-container min-h-[70vh] mb-8'>
         {
             data.map((data, id)=>(
-<div key={id} className='shadow-xl relative hover:translate-y-[-10px] w-full flex gap-5 flex-col p-5  rounded-md'>
+<div key={id} className='shadow-xl  hover:translate-y-[-10px] w-full flex gap-5 flex-col p-5   rounded-md'>
        <p className='flex justify-between text-[48px] '>
        <AiOutlineFolder className='text-purple'/>
         <Link to={data.link} target="_blank"><CiShare1 className='hover:text-purple cursor-pointer'/></Link>  
@@ -34,7 +34,7 @@ function PerProfile() {
         <p className='text-gray'>
            {data.description}
         </p>
-        <p className='text-[12px] flex absolute bottom-4 gap-2 text-gray flex-wrap'>
+        <p className='text-[12px] py-4 mt-6 self-end flex gap-2 text-gray flex-wrap'>
             {
                 data.technologies.map((tech, id)=>(
                     <span className='lowercase' key={id}>
