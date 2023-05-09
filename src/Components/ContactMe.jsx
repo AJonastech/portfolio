@@ -5,7 +5,7 @@ import zigzag from "../assets/Images/newIllustravtion.svg"
 function ContactMe() {
 
   function handleClick() {
-    window.location.href = 'mailto:your-email@gmail.com';
+    window.location.href = 'mailto:Agujonas13@gmail.com';
   }
   return (
     <div>
