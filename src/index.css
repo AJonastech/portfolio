@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 .grid-container{
-    grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(min(200px, 100%), 300px));
     display: grid;
      gap:20px;
   }
